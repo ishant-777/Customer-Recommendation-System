@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_PATH = BASE_DIR.parent / "data" / "product_recommendation_dataser.csv"
+DATA_PATH = BASE_DIR / "data" / "product_recommendation_dataser.csv"
 
 df = pd.read_csv(DATA_PATH)
 
